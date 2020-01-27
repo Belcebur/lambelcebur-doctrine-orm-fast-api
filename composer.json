@@ -1,0 +1,50 @@
+{
+  "name": "lambelcebur/doctrine-orm-fast-api",
+  "description": "Quickly create an automatic API CRUD with your Doctrine ORM connection",
+  "keywords": [
+    "API",
+    "CRUD",
+    "BREAD",
+    "Doctrine",
+    "ORM",
+    "Query",
+    "Repository",
+    "Validator",
+    "Form",
+    "Filter",
+    "Zend",
+    "Laminas",
+    "Tools"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.1",
+    "zendframework/zend-filter": "2.*",
+    "doctrine/doctrine-module": "2.*",
+    "doctrine/doctrine-orm-module": "2.*"
+  },
+  "suggest": {
+    "zendframework/zend-form": "Necessary to use FormManager - Validate and display simple and complex forms, casting forms to business objects and vice versa.",
+    "zendframework/zend-hydrator": "Serialize objects to arrays, and vice versa, strategies.",
+    "lambelcebur/doctrine-orm-resources": "DoctrineORM Resources to Laminas",
+    "lambelcebur/materialize-css-helper": "MaterializeCss Helper integration to Laminas",
+    "lambelcebur/mongodb-logger": "MongoDb Logger integration to Laminas",
+    "lambelcebur/oauth2-social-client": "Laminas extends module from thephpleague/oauth2-client",
+    "lambelcebur/mvc-basic-tools": "Laminas tools for controllers,views,helpers, plugins and more ...",
+    "nesbot/carbon": "A API extension for DateTime that supports 281 different languages."
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "David Garcia",
+      "email": "garcia.gordo.david@gmail.com",
+      "homepage": "https://github.com/Belcebur"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "LamBelcebur\\DoctrineORMFastApi\\": "src/"
+    }
+  }
+}
